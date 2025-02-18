@@ -7,7 +7,7 @@ export default class Api {
 
   static baseUrl =
     process.env.NODE_ENV === "production"
-      ? "http://54.92.221.142/museumplay/"
+      ? "http://localhost:4183/museumplay/"
       : process.env.BASE_URL
       ? process.env.BASE_URL
       : "http://localhost:4183/museumplay/"; // 개발 환경에 따라 URL 변경
