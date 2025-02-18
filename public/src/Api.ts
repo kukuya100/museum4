@@ -20,7 +20,7 @@ export default class Api {
 
   static axiosInstance = axios.create({
     baseURL: this.baseUrl + "gr",
-    timeout: 1000,
+    timeout: 10000,
   });
   static photoUrl = this.baseUrl + "photo/";
 
