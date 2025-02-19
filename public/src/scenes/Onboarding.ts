@@ -23,7 +23,7 @@ export default class Onboarding extends Phaser.Scene {
 
     // const BASE_URL =
     //   process.env.NODE_ENV === "production" ? process.env.BASE_URL : "";
-    const BASE_URL = "";
+    const BASE_URL = "http://54.92.221.142/museumplay/goryeo-ro/";
 
     const surveyDom = fetch(`${BASE_URL}/survey.html`)
       .then((response) => response.text())
