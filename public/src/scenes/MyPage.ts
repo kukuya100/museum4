@@ -221,13 +221,13 @@ export default class MyPage extends Phaser.Scene {
 
     this.baseUrl =
       process.env.NODE_ENV === "production"
-        ? "http://54.92.221.142/museumplay/"
+        ? "http://3.36.61.190/museumplay/"
         : process.env.BASE_URL
         ? process.env.BASE_URL
-        : "http://54.92.221.142/museumplay/"; // 개발 환경에 따라 URL 변경
+        : "http://3.36.61.190/museumplay/"; // 개발 환경에 따라 URL 변경
     this.linkBaseUrl =
       process.env.NODE_ENV === "production"
-        ? "http://54.92.221.142/museumplay/goryeo-ro/"
+        ? "http://3.36.61.190/museumplay/goryeo-ro/"
         : process.env.LINK_BASE_URL
         ? process.env.LINK_BASE_URL
         : "/"; // 개발 환경에 따라 URL 변경
