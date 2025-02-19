@@ -21,8 +21,10 @@ export default class Onboarding extends Phaser.Scene {
     });
     step_1.add(text_1);
 
-    const BASE_URL =
-      process.env.NODE_ENV === "production" ? process.env.BASE_URL : "";
+    // const BASE_URL =
+    //   process.env.NODE_ENV === "production" ? process.env.BASE_URL : "";
+    const BASE_URL = "";
+
     const surveyDom = fetch(`${BASE_URL}/survey.html`)
       .then((response) => response.text())
       .then((html) => {
